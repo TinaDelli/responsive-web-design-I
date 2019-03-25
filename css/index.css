@@ -303,6 +303,7 @@ footer {
         display:flex;
         flex-direction:column;
         justify-content:center; 
+        margin:0;
     }
 
     header nav a {
@@ -313,11 +314,12 @@ footer {
 
     header .logo {
         margin:0;
-        padding:0;
+        padding:25px 65px;
     }
 
     .cta {
         margin-left:100px;
+        margin-top:40px;
     }
     .main-content {
         flex-direction:column;
