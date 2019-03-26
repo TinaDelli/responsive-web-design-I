@@ -268,9 +268,8 @@ footer {
     header .logo {
         display:flex;
         justify-content:center;
-        align-items:center; 
-        margin: 0 240px;
-        width:auto; 
+        align-self:center; 
+         
     }
 
     .cta {
@@ -322,7 +321,7 @@ footer {
 
     header .logo {
         margin:0;
-        padding:25px 120px;
+        padding:25px 0;
     }
 
     .cta {
