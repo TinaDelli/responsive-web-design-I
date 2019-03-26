@@ -94,6 +94,7 @@ header nav a:hover {
 
 header .logo {
     margin: 28px 0 0 91px;
+    height:auto;
 }
 
 /* Call To Action (CTA) Styles */
@@ -261,12 +262,15 @@ footer {
     
     header nav {
     width:100%;
+    text-align:center;
     }
 
     header .logo {
         display:flex;
+        justify-content:center;
+        align-items:center; 
         margin: 0 240px;
-        padding-left:33px;
+        width:auto; 
     }
 
     .cta {
@@ -295,6 +299,10 @@ footer {
        margin: 30px 0;
        width:100%;
    }
+
+   .services-content .services-header-img {
+       width:100%;
+   }
    
 }
 
@@ -309,12 +317,12 @@ footer {
     header nav a {
         border-bottom:1px solid gray;
         border-top: 1px solid gray;
-        padding:20px 140px;;
+        padding:20px 180px;;
     }
 
     header .logo {
         margin:0;
-        padding:25px 65px;
+        padding:25px 120px;
     }
 
     .cta {
